@@ -1,0 +1,19 @@
+RESTRICTION: == net45
+NUGET
+  remote: https://www.nuget.org/api/v2
+    Argu (2.1)
+    canopy (1.1.4)
+      FSharp.Core (>= 3.0.2)
+      Selenium.WebDriver (3.0)
+    FAKE (4.52)
+    FSharp.Core (4.1) - redirects: force
+      System.ValueTuple (>= 4.3)
+    Hopac (0.3.23)
+      FSharp.Core (>= 3.1.2.5)
+    Http.fs (5.0.2)
+    Selenium.WebDriver (3.0)
+    Selenium.WebDriver.ChromeDriver (2.35)
+    Selenium.WebDriver.GeckoDriver (0.19.1)
+    Selenium.WebDriver.GeckoDriver.Win32 (0.19.1)
+      Selenium.WebDriver.GeckoDriver (>= 0.19.1)
+    System.ValueTuple (4.3) - redirects: force

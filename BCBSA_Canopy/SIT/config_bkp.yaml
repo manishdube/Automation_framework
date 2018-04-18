@@ -1,0 +1,26 @@
+﻿portalUrl: https://portalv3.i-360.com/
+cmbxOrg_I: Alicias minions1
+#portalUrl: https://test-portal.i-360.com/
+#cmbxOrg_I: i360
+
+userId: AutomationUser
+password: asdf12341
+email: abc@abc.org
+registrantEmail: abc@abc.org
+smtpTest:
+    username: abc@abc.org
+    password: 4xxe$$M4
+
+logFileTemplate: logs\test-run-{dt}.log
+summaryFileTemplate: logs\TestSummary-{dt}.xlsx
+htmlFileTemplate: logs\TestSummary-{dt}
+sqlInit:
+    tnsName: ILOGQA4
+    userId: ilogadmin
+    password: ilogadmin
+    fileName: GW_USERCREATION_SCRIPT.sql
+regWebV2: true
+
+#CSS Selector Variables
+#i360HomeLogo: .aliciasminions1
+i360HomeLogo: #ctl15_imgMasterHdrLogo
