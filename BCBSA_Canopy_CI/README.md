@@ -9,3 +9,4 @@ For linux I have created a script to take a base install of Ubuntu Server 16.04 
 Just clone and cd to dir then run `sudo sh setupDeb.sh`
 
 Then run `DISPLAY=:1 xvfb-run sh buildLinux.sh` and it should work 'headless'
+--
